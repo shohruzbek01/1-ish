@@ -1,0 +1,26 @@
+.middle{
+    width: 100%;
+    &-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-title{
+        font-weight: 800;
+        font-size: 40px;
+        max-width: 450px;
+        line-height: 50px;
+    }
+    &-person-all{
+        font-weight: 600;
+        font-size: 40px;
+        color: #3F9CFB;
+        &-subtitle{
+            font-weight: 400;
+            max-width: 200px;
+            font-size: 23px;
+            line-height: 30px;
+            color: #1B1F2C;
+        }
+    }
+}

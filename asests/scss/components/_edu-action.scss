@@ -1,0 +1,40 @@
+.team{
+    width: 100%;
+    &-row{
+        background-color: #0C2B44;
+        width: 100%;
+        height: 500px;
+        margin-top: 50px;
+        border-radius: 16px;
+    }
+    &-with{
+        color: #3F9CFB;
+        padding: 50px;
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+   &-question{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    max-width:550px;
+    color: aliceblue;
+    padding: 0 50px;
+   }
+   &-button{
+    width: 120px;
+    height: 40px;
+    background-color: #3F9CFB;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-text{
+        color: aliceblue;
+    }
+   }
+   &-button:hover{
+    background-color: #3f9dfbaa;
+   }
+}
